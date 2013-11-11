@@ -1,0 +1,45 @@
+###########################################################################
+########################## HOW TO RUN THE STUDY: ##########################
+###########################################################################
+
+TO SET UP THE PROGRAM:
+
+If you are running the study without the adaptive image recognizer on,
+make sure to turn off AIR:
+
+  - Go to Utilities, Recognition Manager, Properties
+  - In Conditional Compilation Symbols, type "AIR_OFF" without the quotes
+  - Go to Utilities, Recongizers, Properties
+  - In Conditional Compilation Symbols, type "AIR OFF" without the quotes
+
+Open the program normally through
+
+      ...\Code\FrontEnd\WPFCircuitSimulatorUI\CircuitSimulatorUI.sln
+
+
+ Once the program is running , go to "File" and check "User Study." Go to
+ the new "User Study" tab to change the condition and/or the user or to 
+ exit the study. In Condition 1, ghost gates are on; in condition 2, 
+ ghost gates are off.
+
+ Set up the camera to record the screen.
+
+ Follow the script for the protocol.
+
+ Sketches should be saved automatically into folders and named accordingly.
+
+
+###########################################################################
+################## HOW TO RUN TESTRIG ON THE STUDY DATA: ##################
+###########################################################################
+
+ To run TestRig on the fully recognized/labeled sketches, build TestRig
+ and then open the file
+
+	...\Code\Util\TestRig\scripts\gatevariance
+
+ To edit the script (which is necessary if you have more data), right click
+ and hit "Edit." Change or add to the list of numbers so that the script
+ runs through the correct files (make sure these files are named/placed in
+ the same file path as in the script). The output will be put into an
+ output folder in the scripts folder.

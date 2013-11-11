@@ -1,0 +1,45 @@
+###########################################################################
+########################## HOW TO RUN THE STUDY: ##########################
+###########################################################################
+
+TO SET UP THE PROGRAM:
+
+ Go to 
+
+      ...\Data\DrawingStyleStudyData\User Study Version Installer
+
+ to install the version of the program that we have been using. Or, you
+ can use the non-executable version by opening up
+
+      ...\UserStudyCode\FrontEnd\WPFCircuitSimulatorUI/CircuitSimulatorUI
+
+ like how you usually access the program (but this is the frozen code we
+ used for the study). Otherwise, you can try using the most updated 
+ version of the program (but this is not guaranteed to work without 
+ crashing).
+
+ Once the program is installed and/or running (run as administrator), go
+ to "File" and check "User Study." Go to the new "User Study" tab to
+ change the condition and/or the user or to exit the study.
+
+ Set up the camera to record the screen.
+
+ Follow the script for the protocol.
+
+ Sketches should be saved automatically into folders and named accordingly.
+
+
+###########################################################################
+################## HOW TO RUN TESTRIG ON THE STUDY DATA: ##################
+###########################################################################
+
+ To run TestRig on the fully recognized/labeled sketches, build TestRig
+ and then open the file
+
+	...\Code\Util\TestRig\scripts\gatevariance
+
+ To edit the script (which is necessary if you have more data), right click
+ and hit "Edit." Change or add to the list of numbers so that the script
+ runs through the correct files (make sure these files are named/placed in
+ the same file path as in the script). The output will be put into an
+ output folder in the scripts folder.
